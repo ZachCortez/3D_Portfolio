@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </div>
 
-  <h3 align="center">Interactive 3D Portfolio Website</h3>
+<h3 align="center">Interactive 3D Portfolio Website</h3>
 
    <div align="center">
      A visually captivating 3D portfolio with React.js and Three.js!
