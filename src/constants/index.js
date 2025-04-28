@@ -29,10 +29,14 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 4, suffix: "+", label: "Years of Experience(Self Taught)" },
+  { value: 9, suffix: "+", label: "Tech Projects Built" },
+  { value: 5, suffix: "+", label: "Frameworks Learned" },
+  { value: 90, suffix: "%", label: "Technical Proficiency Rate" },
+  { value: 60, suffix: "%", label: "Frontend Development Expertise" },
+  { value: 30, suffix: "%", label: "Backend Development Proficiency" },
+  { value: 10, suffix: "%", label: "Fullstack Application Development" },
+  { value: 1500, suffix: "+", label: "Hours of Coding Practice" },
 ];
 
 const logoIconsList = [
