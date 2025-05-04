@@ -29,15 +29,16 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 4, suffix: "+", label: "Years of Experience(Self Taught)" },
-  { value: 9, suffix: "+", label: "Tech Projects Built" },
-  { value: 5, suffix: "+", label: "Frameworks Learned" },
-  { value: 90, suffix: "%", label: "Technical Proficiency Rate" },
-  { value: 60, suffix: "%", label: "Frontend Development Expertise" },
-  { value: 30, suffix: "%", label: "Backend Development Proficiency" },
-  { value: 10, suffix: "%", label: "Fullstack Application Development" },
-  { value: 1500, suffix: "+", label: "Hours of Coding Practice" },
+  { value: 4, suffix: "+", label: "Years of Self-Taught Development" },
+  { value: 8, suffix: "+", label: "Full-Stack Projects Completed" },
+  { value: 15, suffix: "+", label: "Technologies & Frameworks Used" },
+  { value: 90, suffix: "%", label: "Frontend Development (React, Tailwind, GSAP)" },
+  { value: 80, suffix: "%", label: "Backend Proficiency (Node, MongoDB, ASP.NET)" },
+  { value: 100, suffix: "%", label: "Passion for Learning & Building" },
+  { value: 2500, suffix: "+", label: "Hours Dedicated to Coding & Debugging" },
+  { value: 1, suffix: "", label: "Coding Bootcamp Completed (Coding Dojo)" },
 ];
+
 
 const logoIconsList = [
   {
