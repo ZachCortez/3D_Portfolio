@@ -1,12 +1,61 @@
-import React from 'react'
+import React, {useRef} from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useGSAP } from '@gsap/react'
+
+gsap.registerPlugin(ScrollTrigger);
 
 const ShowcaseSection = () => {
+    const sectionRef = useRef(null);
+    const project1Ref = useRef(null);
+    const project2Ref = useRef(null);
+    const project3Ref = useRef(null);
+    const project4Ref = useRef(null);
+    const project5Ref = useRef(null);
+    const project6Ref = useRef(null);
+    const project7Ref = useRef(null);
+    const project8Ref = useRef(null);
+
+
+
+
+
+    useGSAP(() => {
+
+        const projects = [project1Ref.current, project2Ref.current, project3Ref.current, project4Ref.current, project5Ref.current, project6Ref.current, project7Ref.current, project8Ref.current];
+
+        projects.forEach((card, index) => {
+        gsap.fromTo(card,
+            {
+                y: 50,
+                opacity: 0,
+            },
+            {
+                y: 0,
+                opacity: 1,
+                duration: 1,
+                delay: 0.3 * (index + 1),
+                scrollTrigger: {
+                    trigger: card,
+                    start: "top bottom-=100",
+                },
+            }
+        );
+    })
+        // Animation for the main section
+        gsap.fromTo(
+            sectionRef.current,
+            { opacity: 0 },
+            { opacity: 1, duration: 1.5 }
+        )
+    },[]);
+
     return (
-        <div id="work" className="app-showcase">
+        <div id="work" ref={sectionRef} className="app-showcase">
             <div className="w-full">
                 <div className="showcaselayout">
                 {/*    LEFT    */}
-                    <div className="first-project-wrapper">
+                    <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
                         <img src="/images/project1.png" alt="Ryde" />
                         </div>
@@ -22,7 +71,7 @@ const ShowcaseSection = () => {
 
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]">
+                            <div className="image-wrapper bg-[#]" ref={project2Ref}>
                                 <img src="/images/robot.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🤖 AI Mock Interviews – AI-Powered Interview Practice Platform</h2>
@@ -32,7 +81,7 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]">
+                            <div className="image-wrapper bg-[#]" ref={project3Ref}>
                                 <img src="/images/movieapp.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🎬 Mobile Movie App – Cross-Platform Movie Discovery Application</h2>
@@ -42,7 +91,7 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]">
+                            <div className="image-wrapper bg-[#]" ref={project4Ref}>
                                 <img src="/images/xoraapp.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🧩 Xora – Modern UI/UX SaaS Website</h2>
@@ -52,7 +101,7 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]">
+                            <div className="image-wrapper bg-[#]" ref={project5Ref}>
                                 <img src="/images/podcastr.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🎙 Podcastr – AI-Powered Podcast Platform</h2>
@@ -62,7 +111,7 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]">
+                            <div className="image-wrapper bg-[#]" ref={project6Ref}>
                                 <img src="/images/carepulse.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🏥 CarePulse – Healthcare Patient Management System</h2>
@@ -72,7 +121,7 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]">
+                            <div className="image-wrapper bg-[#]" ref={project7Ref}>
                                 <img src="/images/horizonapp.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🏦 Horizon Bank – Online Banking System</h2>
@@ -82,7 +131,7 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]">
+                            <div className="image-wrapper bg-[#]" ref={project8Ref}>
                                 <img src="/images/brainwaveapp.png" alt="Library Management Platform"/>
                             </div>
                             <h2>💡 Brainwave – Modern UI/UX Website</h2>
@@ -90,16 +139,22 @@ const ShowcaseSection = () => {
                             </p>
                         </div>
                         {/*--------------------------------*/}
-                        {/*---------------------------*/}
-                        <div className="project">
-                            <div className="image-wrapper bg-[#110066]">
-                                <img src="/images/project2.png" alt="Library Management Platform"/>
-                            </div>
-                            <h2>🤖 title title title</h2>
-                            <p className="text-white-50 md:text-xl">text text text text
-                            </p>
-                        </div>
+
+
+
+                        {/*-----------template for more projects----------------*/}
+                        {/*<div className="project">*/}
+                        {/*    <div className="image-wrapper bg-[#110066]">*/}
+                        {/*        <img src="/images/project2.png" alt="Library Management Platform"/>*/}
+                        {/*    </div>*/}
+                        {/*    <h2>🤖 title title title</h2>*/}
+                        {/*    <p className="text-white-50 md:text-xl">text text text text*/}
+                        {/*    </p>*/}
+                        {/*</div>*/}
                         {/*--------------------------------*/}
+
+
+
                     </div>
                 </div>
             </div>
