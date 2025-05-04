@@ -5,16 +5,16 @@
 // import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
-// import LogoShowcase from "./sections/LogoShowcase";
+import LogoShowcase from "./sections/LogoShowcase";
 // import FeatureCards from "./sections/FeatureCards";
-// import Navbar from "./components/NavBar";
+import Navbar from "./components/NavBar";
 
 const App = () => (
     <>
-        {/*<Navbar />*/}
+        <Navbar />
         <Hero />
         <ShowcaseSection />
-        {/*<LogoShowcase />*/}
+        <LogoShowcase />
         {/*<FeatureCards />*/}
         {/*<Experience />*/}
         {/*<TechStack />*/}
