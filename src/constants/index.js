@@ -206,18 +206,25 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Chejay R.",
-    mentions: "@chejay",
+    name: "Robert.",
+    mentions: "@RoboRoberto",
     review:
         "Zach's dedication and drive are unmatched. I watched him teach himself full-stack development while juggling life and responsibilities. Seeing the real estate app he built from scratch was nothing short of inspiring. His focus and grit make him someone you definitely want on your team.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Ryan Cortez",
-    mentions: "@ryancortez",
+    name: "Ryan C",
+    mentions: "@ryanc",
     review:
         "Zach's creative eye and technical skillset go hand-in-hand. When he helped brainstorm interactive features for my author site, he made it feel effortless — even though the work wasn’t. He listens, understands vision, and executes with quality.",
     imgPath: "/images/client2.png",
+  },
+  {
+    name: "George",
+    mentions: "@georgejr",
+    review:
+        "I've known Zach personally and professionally for years. His passion for learning and creating is evident in every project he touches. He took complex problems during his portfolio rebuild and turned them into beautiful, user-friendly solutions. He’s got real talent and a heart for tech.",
+    imgPath: "/images/client3.png",
   },
   {
     name: "John .",
@@ -227,7 +234,7 @@ const testimonials = [
     imgPath: "/images/client5.png",
   },
   {
-    name: "Taylor Cortez",
+    name: "Taylor R",
     mentions: "@taylor",
     review:
         "Zach is the definition of hardworking. His projects are not only visually impressive but also technically sound. He takes pride in getting things done the right way — whether it's performance, accessibility, or clean code.",
