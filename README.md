@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://ibb.co/dsZV7QNL"><img src="https://i.ibb.co/Gfm8FVZt/3Dreadme.png" alt="3Dreadme" border="0"></a>
+    <a href="https://ibb.co/nsSB882H"><img src="https://i.ibb.co/bgnFRRhS/Screenshot-2025-05-04-225538.png"alt="3Dreadme" border="0"></a>
   <br />
 
   <div>
