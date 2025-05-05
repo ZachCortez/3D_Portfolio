@@ -221,7 +221,7 @@ const testimonials = [
   },
   {
     name: "George",
-    mentions: "@georgejr",
+    mentions: "@george",
     review:
         "I've known Zach personally and professionally for years. His passion for learning and creating is evident in every project he touches. He took complex problems during his portfolio rebuild and turned them into beautiful, user-friendly solutions. He’s got real talent and a heart for tech.",
     imgPath: "/images/client3.png",
@@ -267,6 +267,7 @@ const socialImgs = [
     imgPath: "/images/linkedin.png",
   },
 ];
+
 
 export {
   words,
