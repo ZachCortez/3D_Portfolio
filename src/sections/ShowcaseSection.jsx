@@ -64,14 +64,46 @@ const ShowcaseSection = () => {
                             <p className="text-white-50 md:text-xl">An app built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.
                             </p>
                         </div>
+
+                        {/*---------------------------*/}
+                        <div className="project">
+                            <div className="image-wrapper bg-[#]" ref={project8Ref}>
+                                <img src="/images/brainwaveapp.png" alt="Library Management Platform"/>
+                            </div>
+                            <div className="text-content">
+                                <h2>💡 Brainwave – Modern UI/UX Website</h2>
+                                <p className="text-white-50 md:text-xl">Modern UI/UX website, developed using React.js
+                                    and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless
+                                    animations, and overall user experience set a high standard, serving as a reference
+                                    or inspiration for future modern applications or websites in general.
+                                </p></div>
+
+                        </div>
+                        {/*--------------------------------*/}
+                        {/*---------------------------*/}
+                        <div className="project">
+                            <div className="image-wrapper bg-[#]" ref={project7Ref}>
+                                <img src="/images/horizonapp.png" alt="Library Management Platform"/>
+                            </div>
+                            <div className="text-content">
+                                <h2>🏦 Horizon Bank – Online Banking System</h2>
+                                <p className="text-white-50 md:text-xl">Built with Next.js, Horizon is a financial SaaS
+                                    platform that connects to multiple bank accounts, displays transactions in
+                                    real-time, allows users to transfer money to other platform users, and manages their
+                                    finances altogether.
+                                </p></div>
+
+                        </div>
+                        {/*--------------------------------*/}
+
                     </div>
 
-                {/*    RIGHT    */}
+                    {/*    RIGHT    */}
                     <div className="project-list-wrapper overflow-hidden">
 
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project2Ref}>
+                        <div className="image-wrapper bg-[#]" ref={project2Ref}>
                                 <img src="/images/robot.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🤖 AI Mock Interviews – AI-Powered Interview Practice Platform</h2>
@@ -119,26 +151,26 @@ const ShowcaseSection = () => {
                             </p>
                         </div>
                         {/*--------------------------------*/}
-                        {/*---------------------------*/}
-                        <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project7Ref}>
-                                <img src="/images/horizonapp.png" alt="Library Management Platform"/>
-                            </div>
-                            <h2>🏦 Horizon Bank – Online Banking System</h2>
-                            <p className="text-white-50 md:text-xl">Built with Next.js, Horizon is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
-                            </p>
-                        </div>
-                        {/*--------------------------------*/}
-                        {/*---------------------------*/}
-                        <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project8Ref}>
-                                <img src="/images/brainwaveapp.png" alt="Library Management Platform"/>
-                            </div>
-                            <h2>💡 Brainwave – Modern UI/UX Website</h2>
-                            <p className="text-white-50 md:text-xl">Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.
-                            </p>
-                        </div>
-                        {/*--------------------------------*/}
+                        {/*/!*---------------------------*!/*/}
+                        {/*<div className="project">*/}
+                        {/*    <div className="image-wrapper bg-[#]" ref={project7Ref}>*/}
+                        {/*        <img src="/images/horizonapp.png" alt="Library Management Platform"/>*/}
+                        {/*    </div>*/}
+                        {/*    <h2>🏦 Horizon Bank – Online Banking System</h2>*/}
+                        {/*    <p className="text-white-50 md:text-xl">Built with Next.js, Horizon is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.*/}
+                        {/*    </p>*/}
+                        {/*</div>*/}
+                        {/*/!*--------------------------------*!/*/}
+                        {/*/!*---------------------------*!/*/}
+                        {/*<div className="project">*/}
+                        {/*    <div className="image-wrapper bg-[#]" ref={project8Ref}>*/}
+                        {/*        <img src="/images/brainwaveapp.png" alt="Library Management Platform"/>*/}
+                        {/*    </div>*/}
+                        {/*    <h2>💡 Brainwave – Modern UI/UX Website</h2>*/}
+                        {/*    <p className="text-white-50 md:text-xl">Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.*/}
+                        {/*    </p>*/}
+                        {/*</div>*/}
+                        {/*/!*--------------------------------*!/*/}
 
 
 
