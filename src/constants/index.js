@@ -41,12 +41,12 @@ const counterItems = [
 
 
 const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
+  // {
+  //   imgPath: "/images/logos/company-logo-1.png",
+  // },
+  // {
+  //   imgPath: "/images/logos/company-logo-2.png",
+  // },
   // {
   //   imgPath: "/images/logos/company-logo-3.png",
   // },
@@ -56,9 +56,9 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-5.png",
   },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
+  // {
+  //   imgPath: "/images/logos/company-logo-6.png",
+  // },
   {
     imgPath: "/images/logos/company-logo-7.png",
   },

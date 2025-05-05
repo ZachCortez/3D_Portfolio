@@ -15,6 +15,7 @@ const ShowcaseSection = () => {
     const project6Ref = useRef(null);
     const project7Ref = useRef(null);
     const project8Ref = useRef(null);
+    const project9Ref = useRef(null);
 
 
 
@@ -22,7 +23,7 @@ const ShowcaseSection = () => {
 
     useGSAP(() => {
 
-        const projects = [project1Ref.current, project2Ref.current, project3Ref.current, project4Ref.current, project5Ref.current, project6Ref.current, project7Ref.current, project8Ref.current];
+        const projects = [project1Ref.current, project2Ref.current, project3Ref.current, project4Ref.current, project5Ref.current, project6Ref.current, project7Ref.current, project8Ref.current, project9Ref.current];
 
         projects.forEach((card, index) => {
         gsap.fromTo(card,
@@ -67,8 +68,8 @@ const ShowcaseSection = () => {
 
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project8Ref}>
-                                <img src="/images/brainwaveapp.png" alt="Library Management Platform"/>
+                            <div className="image-wrapper bg-[#]" ref={project2Ref}>
+                                <img src="/images/brainwaveapp.png" alt="BrainWaveApp"/>
                             </div>
                             <div className="text-content">
                                 <h2>💡 Brainwave – Modern UI/UX Website</h2>
@@ -82,15 +83,25 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project7Ref}>
-                                <img src="/images/horizonapp.png" alt="Library Management Platform"/>
+                            <div className="image-wrapper bg-[#]" ref={project3Ref}>
+                                <img src="/images/podcastr.png" alt="PodcastrApp"/>
                             </div>
                             <div className="text-content">
-                                <h2>🏦 Horizon Bank – Online Banking System</h2>
-                                <p className="text-white-50 md:text-xl">Built with Next.js, Horizon is a financial SaaS
-                                    platform that connects to multiple bank accounts, displays transactions in
-                                    real-time, allows users to transfer money to other platform users, and manages their
-                                    finances altogether.
+                                <h2>🎙 Podcastr – AI-Powered Podcast Platform</h2>
+                                <p className="text-white-50 md:text-xl">A cutting-edge AI SaaS platform that enables users to create, discover, and enjoy podcasts with advanced features like text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation and seamless playback
+                                </p></div>
+
+                        </div>
+                        {/*--------------------------------*/}
+
+                        {/*---------------------------*/}
+                        <div className="project">
+                            <div className="image-wrapper bg-[#]" ref={project4Ref}>
+                                <img src="/images/onboarding.png" alt="RealEstateApp"/>
+                            </div>
+                            <div className="text-content">
+                                <h2>🏘️ Real Estate application</h2>
+                                <p className="text-white-50 md:text-xl">Real Estate application with React Native, featuring Google authentication, dynamic property listings, and user profiles. Designed with modern tools like Expo SDK 52, Appwrite, Tailwind CSS, and TypeScript for a seamless and scalable experience.
                                 </p></div>
 
                         </div>
@@ -103,7 +114,7 @@ const ShowcaseSection = () => {
 
                         {/*---------------------------*/}
                         <div className="project">
-                        <div className="image-wrapper bg-[#]" ref={project2Ref}>
+                        <div className="image-wrapper bg-[#]" ref={project5Ref}>
                                 <img src="/images/robot.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🤖 AI Mock Interviews – AI-Powered Interview Practice Platform</h2>
@@ -113,7 +124,7 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project3Ref}>
+                            <div className="image-wrapper bg-[#]" ref={project6Ref}>
                                 <img src="/images/movieapp.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🎬 Mobile Movie App – Cross-Platform Movie Discovery Application</h2>
@@ -123,27 +134,42 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project4Ref}>
-                                <img src="/images/xoraapp.png" alt="Library Management Platform"/>
+                            <div className="image-wrapper bg-[#]" ref={project7Ref}>
+                                <img src="/images/xoraapp.png" alt="XoraApp"/>
                             </div>
                             <h2>🧩 Xora – Modern UI/UX SaaS Website</h2>
                             <p className="text-white-50 md:text-xl">Xora is a Modern UI/UX SaaS website developed using React.js and Tailwind CSS that exemplifies modern UI/UX principles
                             </p>
                         </div>
                         {/*--------------------------------*/}
+                        {/*/!*---------------------------*!/*/}
+                        {/*<div className="project">*/}
+                        {/*    <div className="image-wrapper bg-[#]" ref={project5Ref}>*/}
+                        {/*        <img src="/images/podcastr.png" alt="PodcastrApp"/>*/}
+                        {/*    </div>*/}
+                        {/*    <h2>🎙 Podcastr – AI-Powered Podcast Platform</h2>*/}
+                        {/*    <p className="text-white-50 md:text-xl">A cutting-edge AI SaaS platform that enables users to create, discover, and enjoy podcasts with advanced features like text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation and seamless playback*/}
+                        {/*    </p>*/}
+                        {/*</div>*/}
+                        {/*/!*--------------------------------*!/*/}
+
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project5Ref}>
-                                <img src="/images/podcastr.png" alt="Library Management Platform"/>
+                            <div className="image-wrapper bg-[#]" ref={project8Ref}>
+                                <img src="/images/horizonapp.png" alt="HorizonApp"/>
                             </div>
-                            <h2>🎙 Podcastr – AI-Powered Podcast Platform</h2>
-                            <p className="text-white-50 md:text-xl">A cutting-edge AI SaaS platform that enables users to create, discover, and enjoy podcasts with advanced features like text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation and seamless playback
+                            <h2>🏦 Horizon Bank – Online Banking System</h2>
+                            <p className="text-white-50 md:text-xl">Built with Next.js, Horizon is a financial SaaS
+                                platform that connects to multiple bank accounts, displays transactions in
+                                real-time, allows users to transfer money to other platform users, and manages their
+                                finances altogether.
                             </p>
                         </div>
                         {/*--------------------------------*/}
+
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project6Ref}>
+                            <div className="image-wrapper bg-[#]" ref={project9Ref}>
                                 <img src="/images/carepulse.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🏥 CarePulse – Healthcare Patient Management System</h2>
