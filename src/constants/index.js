@@ -158,21 +158,21 @@ const expCards = [
     title: "Frontend Developer",
     date: "January 2024 - April 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the SellingEastsideRE with Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+      "Developed and maintained user-facing features for the SellingEastsideRE with Hostinger website hosting.",
+      "Deep research with UI/UX designs to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
     ],
   },
   {
-    review: "Zach’s work on the SellingEastsideRE real estate app demonstrated strong frontend skills and a keen eye for user experience. He delivered fast, responsive features that improved usability and helped the platform better serve both agents and clients.",
+    review: "Zach’s work on the real estate app demonstrated strong frontend skills and a keen eye for user experience. He delivered fast, responsive features that improved usability and helped the platform better serve both agents and clients.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Web Developer – Real Estate App",
     date: "March 2025 - April 2025",
     responsibilities: [
-      "Developed and deployed the SellingEastsideRE real estate website using modern frontend technologies.",
+      "Developed and deployed the real estate website using modern frontend technologies.",
       "Integrated property listings, search filters, and contact forms to create a seamless user experience for homebuyers and agents.",
-      "Collaborated with stakeholders to refine features based on user feedback and ensure the site met client goals.",
+      "Refine features based on user feedback and ensure the site met client goals.",
     ],
   },
   {
@@ -206,45 +206,38 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Chejay R.",
+    mentions: "@chejay",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+        "Zach's dedication and drive are unmatched. I watched him teach himself full-stack development while juggling life and responsibilities. Seeing the real estate app he built from scratch was nothing short of inspiring. His focus and grit make him someone you definitely want on your team.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Ryan Cortez",
+    mentions: "@ryancortez",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Zach's creative eye and technical skillset go hand-in-hand. When he helped brainstorm interactive features for my author site, he made it feel effortless — even though the work wasn’t. He listens, understands vision, and executes with quality.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "John .",
+    mentions: "@john1993",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+        "Zach built out the web portion of our project and exceeded expectations. He communicates clearly, meets deadlines, and always looks for ways to improve user experience. Anyone looking for someone reliable and tech-savvy should talk to him.",
     imgPath: "/images/client5.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Taylor Cortez",
+    mentions: "@taylor",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+        "Zach is the definition of hardworking. His projects are not only visually impressive but also technically sound. He takes pride in getting things done the right way — whether it's performance, accessibility, or clean code.",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Coding Dojo Instructor",
+    mentions: "@codingdojo",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+        "Zach was one of the most driven and focused students in our cohort. He mastered multiple stacks and always approached each challenge with curiosity and persistence. His growth during the bootcamp was incredible — a great example of what self-discipline can accomplish.",
     imgPath: "/images/client6.png",
   },
 ];
