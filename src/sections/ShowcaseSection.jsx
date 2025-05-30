@@ -18,6 +18,7 @@ const ShowcaseSection = () => {
     const project9Ref = useRef(null);
     const project10Ref = useRef(null);
     const project11Ref = useRef(null);
+    const project12Ref = useRef(null);
 
 
 
@@ -37,6 +38,7 @@ const ShowcaseSection = () => {
             project9Ref.current,
             project10Ref.current,
             project11Ref.current,
+            project12Ref.current,
         ];
 
         projects.forEach((card, index) => {
@@ -70,13 +72,27 @@ const ShowcaseSection = () => {
             <div className="w-full">
                 <div className="showcaselayout">
                 {/*    LEFT    */}
-                    <div className="first-project-wrapper" >
+                    <div className="first-project-wrapper">
+                        {/*--------------------------------*/}
 
+                        <div className="project">
+                            <a href="https://github.com/ZachCortez/converso" target="_blank" rel="noopener noreferrer">
+                                <div className="image-wrapper bg-[#]" ref={project12Ref}>
+                                    <img src="/images/Converso_Dashboard.png" alt="Converso"/>
+                                </div>
+                            </a>
+                            <div className="text-content">
+                                <h2>🤖 Converso – AI-Powered LMS SaaS Platform with Voice Tutors, Built with Next.js, Supabase & Stripe</h2>
+                                <p className="text-white-50 md:text-xl">Converso is a next-gen LMS SaaS platform built from scratch using Next.js, Supabase, Clerk, and Stripe. Designed for real-time, interactive learning, Converso integrates Vapi to enable AI-powered voice agents that act as intelligent tutors across a wide range of topics.
+                                </p>
+                            </div>
+                        </div>
+                        {/*--------------------------------*/}
                         {/*---------------------------*/}
-                        <div className="project" >
+                        <div className="project">
                             <a href="https://snap-cast-rosy.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <div className="image-wrapper bg-[#]" ref={project10Ref}>
-                                    <img src="/images/snapCastHome.png" alt="SnapCast" />
+                                    <img src="/images/snapCastHome.png" alt="SnapCast"/>
                                 </div>
                             </a>
                             <div className="text-content">
@@ -90,30 +106,20 @@ const ShowcaseSection = () => {
                             </div>
                         </div>
                         {/*---------------------------*/}
-                        <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project1Ref}>
-                                <img src="/images/project1.png" alt="Ryde"/>
-                            </div>
-                            <div className="text-content">
-                                <h2>🚙 Uber Clone – Ride-Sharing Mobile App</h2>
-                                <p className="text-white-50 md:text-xl">Modern UI/UX website, developed using React.js
-                                    and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless
-                                    animations, and overall user experience set a high standard, serving as a reference
-                                    or inspiration for future modern applications or websites in general.
-                                </p></div>
-
-                        </div>
                         {/*--------------------------------*/}
 
                         <div className="project">
-                            <a href="https://travel-agency-omega-five.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://travel-agency-omega-five.vercel.app/" target="_blank"
+                               rel="noopener noreferrer">
                                 <div className="image-wrapper bg-[#]" ref={project11Ref}>
-                                    <img src="/images/travelAgencyHome.png" alt="TravelAgency" />
+                                    <img src="/images/travelAgencyHome.png" alt="TravelAgency"/>
                                 </div>
                             </a>
                             <div className="text-content">
                                 <h2>✈️ Travel Agency Website – Responsive Travel Booking Website</h2>
-                                <p className="text-white-50 md:text-xl">A modern travel agency platform with an admin dashboard and public site. Generate AI-powered trip itineraries based on country, travel style, interests, group type, and budget — and book trips with ease.
+                                <p className="text-white-50 md:text-xl">A modern travel agency platform with an admin
+                                    dashboard and public site. Generate AI-powered trip itineraries based on country,
+                                    travel style, interests, group type, and budget — and book trips with ease.
                                 </p></div>
 
                         </div>
@@ -148,21 +154,6 @@ const ShowcaseSection = () => {
                         </div>
                         {/*--------------------------------*/}
 
-                        {/*---------------------------*/}
-                        <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project4Ref}>
-                                <img src="/images/onboarding.png" alt="RealEstateApp"/>
-                            </div>
-                            <div className="text-content">
-                                <h2>🏘️ Real Estate application</h2>
-                                <p className="text-white-50 md:text-xl">Real Estate application with React Native,
-                                    featuring Google authentication, dynamic property listings, and user profiles.
-                                    Designed with modern tools like Expo SDK 52, Appwrite, Tailwind CSS, and TypeScript
-                                    for a seamless and scalable experience.
-                                </p></div>
-
-                        </div>
-                        {/*--------------------------------*/}
 
                     </div>
 
@@ -183,11 +174,12 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
                         <div className="project">
-                            <div className="image-wrapper bg-[#]" ref={project6Ref}>
+                        <div className="image-wrapper bg-[#]" ref={project6Ref}>
                                 <img src="/images/movieapp.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🎬 Mobile Movie App – Cross-Platform Movie Discovery Application</h2>
-                            <p className="text-white-50 md:text-xl">Built with Expo, TypeScript, and Tailwind CSS, this app fetches movies and creates a popularity algorithm using Appwrite.
+                            <p className="text-white-50 md:text-xl">Built with Expo, TypeScript, and Tailwind CSS, this
+                                app fetches movies and creates a popularity algorithm using Appwrite.
                             </p>
                         </div>
                         {/*--------------------------------*/}
@@ -197,7 +189,8 @@ const ShowcaseSection = () => {
                                 <img src="/images/xoraapp.png" alt="XoraApp"/>
                             </div>
                             <h2>🧩 Xora – Modern UI/UX SaaS Website</h2>
-                            <p className="text-white-50 md:text-xl">Xora is a Modern UI/UX SaaS website developed using React.js and Tailwind CSS that exemplifies modern UI/UX principles
+                            <p className="text-white-50 md:text-xl">Xora is a Modern UI/UX SaaS website developed using
+                                React.js and Tailwind CSS that exemplifies modern UI/UX principles
                             </p>
                         </div>
                         {/*--------------------------------*/}
@@ -222,9 +215,44 @@ const ShowcaseSection = () => {
                                 <img src="/images/carepulse.png" alt="Library Management Platform"/>
                             </div>
                             <h2>🏥 CarePulse – Healthcare Patient Management System</h2>
-                            <p className="text-white-50 md:text-xl">A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js
+                            <p className="text-white-50 md:text-xl">A healthcare patient management application that
+                                allows patients to easily register, book, and manage their appointments with doctors,
+                                featuring administrative tools for scheduling, confirming, and canceling appointments,
+                                along with SMS notifications, all built using Next.js
                             </p>
                         </div>
+                        {/*---------------------------*/}
+                        <div className="project">
+                            <div className="image-wrapper bg-[#]" ref={project4Ref}>
+                                <img src="/images/onboarding.png" alt="RealEstateApp"/>
+                            </div>
+                            <div className="text-content">
+                                <h2>🏘️ Real Estate application</h2>
+                                <p className="text-white-50 md:text-xl">Real Estate application with React Native,
+                                    featuring Google authentication, dynamic property listings, and user profiles.
+                                    Designed with modern tools like Expo SDK 52, Appwrite, Tailwind CSS, and TypeScript
+                                    for a seamless and scalable experience.
+                                </p></div>
+
+                        </div>
+                        {/*--------------------------------*/}
+
+                        <div className="project">
+                            <div className="image-wrapper bg-[#]" ref={project1Ref}>
+                                <img src="/images/project1.png" alt="Ryde"/>
+                            </div>
+                            <div className="text-content">
+                                <h2>🚙 Uber Clone – Ride-Sharing Mobile App</h2>
+                                <p className="text-white-50 md:text-xl">Modern UI/UX website, developed using React.js
+                                    and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless
+                                    animations, and overall user experience set a high standard, serving as a reference
+                                    or inspiration for future modern applications or websites in general.
+                                </p></div>
+
+                        </div>
+
+                        {/*--------------------------------*/}
+
                     </div>
                 </div>
             </div>

@@ -29,14 +29,18 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 4, suffix: "+", label: "Years of Self-Taught Development" },
-  { value: 8, suffix: "+", label: "Full-Stack Projects Completed" },
-  { value: 15, suffix: "+", label: "Technologies & Frameworks Used" },
-  { value: 90, suffix: "%", label: "Frontend Development (React, Tailwind, GSAP)" },
-  { value: 80, suffix: "%", label: "Backend Proficiency (Node, MongoDB, ASP.NET)" },
+  { value: 3, suffix: "+", label: "Years of Self-Taught Development" },
+  { value: 12, suffix: "+", label: "Full-Stack Projects Completed" },
+  { value: 25, suffix: "+", label: "Technologies, Languages & Frameworks Used" },
+  { value: 6, suffix: "+", label: "Modern UI/UX Projects (GSAP, Tailwind, ShadCN)" },
+  { value: 90, suffix: "%", label: "Frontend Expertise (React, Tailwind, GSAP, Three.js)" },
+  { value: 85, suffix: "%", label: "Backend Proficiency (Node.js, MongoDB, ASP.NET, Django)" },
+  { value: 4, suffix: "+", label: "Full Tech Stacks Mastered (MERN, .NET, JAMstack, T3)" },
+  { value: 30, suffix: "+", label: "GitHub Repositories with Real-World Code" },
   { value: 100, suffix: "%", label: "Passion for Learning & Building" },
-  { value: 2500, suffix: "+", label: "Hours Dedicated to Coding & Debugging" },
-  { value: 1, suffix: "", label: "Coding Bootcamp Completed (Coding Dojo)" },
+  { value: 3000, suffix: "+", label: "Hours Dedicated to Coding & Debugging" },
+  { value: 1, suffix: "", label: "Coding Bootcamp Graduate (Coding Dojo)" },
+  { value: 1, suffix: "", label: "Grit-Fueled Dev on a Mission to Build & Grow" },
 ];
 
 
@@ -155,7 +159,7 @@ const expCards = [
     review: "Zach brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
+    title: "Frontend Developer - SellingEastsideRE.com",
     date: "January 2024 - April 2024",
     responsibilities: [
       "Developed and maintained user-facing features for the SellingEastsideRE with Hostinger website hosting.",
