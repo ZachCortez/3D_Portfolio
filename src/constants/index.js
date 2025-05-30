@@ -29,7 +29,7 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 3, suffix: "+", label: "Years of Self-Taught Development" },
+  { value: 4, suffix: "+", label: "Years of Self-Taught Development" },
   { value: 12, suffix: "+", label: "Full-Stack Projects Completed" },
   { value: 25, suffix: "+", label: "Technologies, Languages & Frameworks Used" },
   { value: 6, suffix: "+", label: "Modern UI/UX Projects (GSAP, Tailwind, ShadCN)" },

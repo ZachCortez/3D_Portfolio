@@ -82,7 +82,9 @@ const ShowcaseSection = () => {
                                 </div>
                             </a>
                             <div className="text-content">
-                                <h2>🤖 Converso – AI-Powered LMS SaaS Platform with Voice Tutors, Built with Next.js, Supabase & Stripe</h2>
+                                <a href="https://converso-wheat.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <h2>🤖 Converso – AI-Powered LMS SaaS Platform with Voice Tutors, Built with Next.js,
+                                        Supabase & Stripe</h2></a>
                                 <p className="text-white-50 md:text-xl">Converso is a next-gen LMS SaaS platform built from scratch using Next.js, Supabase, Clerk, and Stripe. Designed for real-time, interactive learning, Converso integrates Vapi to enable AI-powered voice agents that act as intelligent tutors across a wide range of topics.
                                 </p>
                             </div>
