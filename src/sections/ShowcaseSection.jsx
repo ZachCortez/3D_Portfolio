@@ -19,6 +19,7 @@ const ShowcaseSection = () => {
     const project10Ref = useRef(null);
     const project11Ref = useRef(null);
     const project12Ref = useRef(null);
+    const project13Ref = useRef(null);
 
 
 
@@ -39,6 +40,7 @@ const ShowcaseSection = () => {
             project10Ref.current,
             project11Ref.current,
             project12Ref.current,
+            project13Ref.current,
         ];
 
         projects.forEach((card, index) => {
@@ -73,6 +75,22 @@ const ShowcaseSection = () => {
                 <div className="showcaselayout">
                 {/*    LEFT    */}
                     <div className="first-project-wrapper">
+                        {/*--------------------------------*/}
+
+                        <div className="project">
+                            <a href="https://github.com/ZachCortez/velvet_pour" target="_blank" rel="noopener noreferrer">
+                                <div className="image-wrapper bg-[#]" ref={project13Ref}>
+                                    <img src="/images/velvetPour.png" alt="VelvetPour"/>
+                                </div>
+                            </a>
+                            <div className="text-content">
+                                <a href="https://velvet-pour-gamma.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <h2>🍷 Velvet Pour – Modern Animated Landing Page for a Premium Bar</h2></a>
+                                <p className="text-white-50 md:text-xl">Velvet Pour is a rich and atmospheric animated landing page designed for a high-end bar. Built using React, GSAP, and Tailwind CSS, this project showcases buttery-smooth scroll animations, aesthetic layout transitions, and a sleek modern vibe meant to capture the ambiance of a luxury nightlife experience.
+                                </p>
+                            </div>
+                        </div>
+                        {/*--------------------------------*/}
                         {/*--------------------------------*/}
 
                         <div className="project">
