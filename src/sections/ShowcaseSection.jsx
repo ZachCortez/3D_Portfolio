@@ -20,6 +20,7 @@ const ShowcaseSection = () => {
     const project11Ref = useRef(null);
     const project12Ref = useRef(null);
     const project13Ref = useRef(null);
+    const project14Ref = useRef(null);``
 
 
 
@@ -41,6 +42,7 @@ const ShowcaseSection = () => {
             project11Ref.current,
             project12Ref.current,
             project13Ref.current,
+            project14Ref.current,
         ];
 
         projects.forEach((card, index) => {
@@ -78,9 +80,31 @@ const ShowcaseSection = () => {
                         {/*--------------------------------*/}
 
                         <div className="project">
-                            <a href="https://github.com/ZachCortez/velvet_pour" target="_blank" rel="noopener noreferrer">
+                            <a href="https://gta-vi-landing-nu.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <div className="image-wrapper bg-[#]" ref={project14Ref}>
+                                    <img src="/images/gta_vi_landing.png" alt="GTA VI Landing Page"/>
+                                </div>
+                            </a>
+                            <div className="text-content">
+                                <a href="https://github.com/ZachCortez/gta_vi_landing" target="_blank" rel="noopener noreferrer">
+                                    <h2>🎮 GTA VI Landing Page – Cinematic Scroll Experience</h2>
+                                </a>
+                                <p className="text-white-50 md:text-xl">
+                                    A visually stunning, scroll-driven landing page inspired by GTA VI. Built with
+                                    React, GSAP, and Tailwind CSS, it features pinned scenes, parallax effects, image
+                                    masking, and synced video transitions to create a responsive and immersive
+                                    experience.
+                                </p>
+                            </div>
+                        </div>
+                        {/*--------------------------------*/}
+                        {/*--------------------------------*/}
+
+                        <div className="project">
+                            <a href="https://github.com/ZachCortez/velvet_pour" target="_blank"
+                               rel="noopener noreferrer">
                                 <div className="image-wrapper bg-[#]" ref={project13Ref}>
-                                    <img src="/images/velvetPour.png" alt="VelvetPour"/>
+                                <img src="/images/velvetPour.png" alt="VelvetPour"/>
                                 </div>
                             </a>
                             <div className="text-content">
