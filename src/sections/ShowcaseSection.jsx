@@ -20,7 +20,8 @@ const ShowcaseSection = () => {
     const project11Ref = useRef(null);
     const project12Ref = useRef(null);
     const project13Ref = useRef(null);
-    const project14Ref = useRef(null);``
+    const project14Ref = useRef(null);
+    const project15Ref = useRef(null);``
 
 
 
@@ -43,6 +44,7 @@ const ShowcaseSection = () => {
             project12Ref.current,
             project13Ref.current,
             project14Ref.current,
+            project15Ref.current,
         ];
 
         projects.forEach((card, index) => {
@@ -78,6 +80,26 @@ const ShowcaseSection = () => {
                 {/*    LEFT    */}
                     <div className="first-project-wrapper">
                         {/*--------------------------------*/}
+                        <div className="project">
+                            <a href="https://sushi-green-one.vercel.app/" target="_blank"
+                               rel="noopener noreferrer">
+                                <div className="image-wrapper bg-[#]" ref={project15Ref}>
+                                    <img src="/images/sushi-preview.png" alt="Sushi Restaurant Website"/>
+                                </div>
+                            </a>
+                            <div className="text-content">
+                                <a href="https://github.com/ZachCortez/sushi" target="_blank" rel="noopener noreferrer">
+                                    <h2>🍣 Sushi Restaurant – Elegant, Responsive Food Experience</h2>
+                                </a>
+                                <p className="text-white-50 md:text-xl">
+                                    A sleek and modern sushi restaurant website showcasing rich visuals and intuitive
+                                    navigation. Built using React and Tailwind CSS with GSAP animations for a polished,
+                                    responsive, and interactive user experience. Perfect for food businesses looking to
+                                    establish an online presence.
+                                </p>
+                            </div>
+                        </div>
+                        {/*--------------------------------*/}
 
                         <div className="project">
                             <a href="https://gta-vi-landing-nu.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -86,7 +108,8 @@ const ShowcaseSection = () => {
                                 </div>
                             </a>
                             <div className="text-content">
-                                <a href="https://github.com/ZachCortez/gta_vi_landing" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/ZachCortez/gta_vi_landing" target="_blank"
+                                   rel="noopener noreferrer">
                                     <h2>🎮 GTA VI Landing Page – Cinematic Scroll Experience</h2>
                                 </a>
                                 <p className="text-white-50 md:text-xl">
@@ -104,13 +127,18 @@ const ShowcaseSection = () => {
                             <a href="https://github.com/ZachCortez/velvet_pour" target="_blank"
                                rel="noopener noreferrer">
                                 <div className="image-wrapper bg-[#]" ref={project13Ref}>
-                                <img src="/images/velvetPour.png" alt="VelvetPour"/>
+                                    <img src="/images/velvetPour.png" alt="VelvetPour"/>
                                 </div>
                             </a>
                             <div className="text-content">
-                                <a href="https://velvet-pour-gamma.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://velvet-pour-gamma.vercel.app/" target="_blank"
+                                   rel="noopener noreferrer">
                                     <h2>🍷 Velvet Pour – Modern Animated Landing Page for a Premium Bar</h2></a>
-                                <p className="text-white-50 md:text-xl">Velvet Pour is a rich and atmospheric animated landing page designed for a high-end bar. Built using React, GSAP, and Tailwind CSS, this project showcases buttery-smooth scroll animations, aesthetic layout transitions, and a sleek modern vibe meant to capture the ambiance of a luxury nightlife experience.
+                                <p className="text-white-50 md:text-xl">Velvet Pour is a rich and atmospheric animated
+                                    landing page designed for a high-end bar. Built using React, GSAP, and Tailwind CSS,
+                                    this project showcases buttery-smooth scroll animations, aesthetic layout
+                                    transitions, and a sleek modern vibe meant to capture the ambiance of a luxury
+                                    nightlife experience.
                                 </p>
                             </div>
                         </div>
@@ -127,7 +155,10 @@ const ShowcaseSection = () => {
                                 <a href="https://converso-wheat.vercel.app/" target="_blank" rel="noopener noreferrer">
                                     <h2>🤖 Converso – AI-Powered LMS SaaS Platform with Voice Tutors, Built with Next.js,
                                         Supabase & Stripe</h2></a>
-                                <p className="text-white-50 md:text-xl">Converso is a next-gen LMS SaaS platform built from scratch using Next.js, Supabase, Clerk, and Stripe. Designed for real-time, interactive learning, Converso integrates Vapi to enable AI-powered voice agents that act as intelligent tutors across a wide range of topics.
+                                <p className="text-white-50 md:text-xl">Converso is a next-gen LMS SaaS platform built
+                                    from scratch using Next.js, Supabase, Clerk, and Stripe. Designed for real-time,
+                                    interactive learning, Converso integrates Vapi to enable AI-powered voice agents
+                                    that act as intelligent tutors across a wide range of topics.
                                 </p>
                             </div>
                         </div>
@@ -170,9 +201,9 @@ const ShowcaseSection = () => {
                         {/*---------------------------*/}
                         <div className="project">
                             <a href="https://github.com/ZachCortez/Brainwave" target="_blank" rel="noopener noreferrer">
-                            <div className="image-wrapper bg-[#]" ref={project2Ref}>
-                                <img src="/images/brainwaveapp.png" alt="BrainWaveApp"/>
-                            </div>
+                                <div className="image-wrapper bg-[#]" ref={project2Ref}>
+                                    <img src="/images/brainwaveapp.png" alt="BrainWaveApp"/>
+                                </div>
                             </a>
                             <div className="text-content">
                                 <h2>💡 Brainwave – Modern UI/UX Website</h2>
@@ -191,14 +222,14 @@ const ShowcaseSection = () => {
                                     <img src="/images/podcastr.png" alt="PodcastrApp"/>
                                 </div>
                             </a>
-                                <div className="text-content">
-                                    <h2>🎙 Podcastr – AI-Powered Podcast Platform</h2>
-                                    <p className="text-white-50 md:text-xl">A cutting-edge AI SaaS platform that enables
-                                        users to create, discover, and enjoy podcasts with advanced features like
-                                        text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation
-                                        and
-                                        seamless playback
-                                    </p></div>
+                            <div className="text-content">
+                                <h2>🎙 Podcastr – AI-Powered Podcast Platform</h2>
+                                <p className="text-white-50 md:text-xl">A cutting-edge AI SaaS platform that enables
+                                    users to create, discover, and enjoy podcasts with advanced features like
+                                    text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation
+                                    and
+                                    seamless playback
+                                </p></div>
 
                         </div>
                         {/*--------------------------------*/}
@@ -211,14 +242,15 @@ const ShowcaseSection = () => {
 
                         {/*---------------------------*/}
                         <div className="project">
-                            <a href="https://github.com/ZachCortez/ai_mock_interviews" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/ZachCortez/ai_mock_interviews" target="_blank"
+                               rel="noopener noreferrer">
                                 <div className="image-wrapper bg-[#]" ref={project5Ref}>
                                     <img src="/images/robot.png" alt="Library Management Platform"/>
                                 </div>
                             </a>
-                                <h2>🤖 AI Mock Interviews – AI-Powered Interview Practice Platform</h2>
-                                <p className="text-white-50 md:text-xl">Built with Next.js for the user interface and
-                                    backend logic, Firebase for authentication and data storage, styled with TailwindCSS
+                            <h2>🤖 AI Mock Interviews – AI-Powered Interview Practice Platform</h2>
+                            <p className="text-white-50 md:text-xl">Built with Next.js for the user interface and
+                                backend logic, Firebase for authentication and data storage, styled with TailwindCSS
                                     and
                                     using Vapi's voice agents
                                 </p>
