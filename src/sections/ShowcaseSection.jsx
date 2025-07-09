@@ -21,7 +21,8 @@ const ShowcaseSection = () => {
     const project12Ref = useRef(null);
     const project13Ref = useRef(null);
     const project14Ref = useRef(null);
-    const project15Ref = useRef(null);``
+    const project15Ref = useRef(null);
+    const project16Ref = useRef(null);
 
 
 
@@ -45,6 +46,7 @@ const ShowcaseSection = () => {
             project13Ref.current,
             project14Ref.current,
             project15Ref.current,
+            project16Ref.current,
         ];
 
         projects.forEach((card, index) => {
@@ -79,6 +81,42 @@ const ShowcaseSection = () => {
                 <div className="showcaselayout">
                 {/*    LEFT    */}
                     <div className="first-project-wrapper">
+                        {/*--------------------------------*/}
+
+                        <div className="project">
+                            <a
+                                href="https://github.com/ZachCortez/FastFood" // Replace with your actual link
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div className="image-wrapper bg-[#]" ref={project16Ref}>
+                                    <img
+                                        src="/images/fastfood-preview.png" // Replace with actual path
+                                        alt="FastFood App Preview"
+                                    />
+                                </div>
+                            </a>
+
+                            <div className="text-content">
+                                <a
+                                    href="https://github.com/ZachCortez/FastFood"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <h2>🍟 FastFood – React Native Food Delivery App</h2>
+                                </a>
+                                <p className="text-white-50 md:text-xl">
+                                    A React Native food delivery app built with TypeScript, Tailwind CSS (via
+                                    NativeWind),
+                                    and powered by an Appwrite backend. It includes Google Authentication, a smart
+                                    search feature,
+                                    cart management, and smooth navigation – all designed to deliver a seamless and
+                                    modern mobile experience.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/*--------------------------------*/}
                         {/*--------------------------------*/}
                         <div className="project">
                             <a href="https://sushi-green-one.vercel.app/" target="_blank"
