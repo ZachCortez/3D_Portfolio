@@ -89,7 +89,7 @@ const ShowcaseSection = () => {
 
                         <div className="project">
                             <a
-                                href="https://github.com/ZachCortez/ai-resume-analyzer"
+                                href="https://ai-resume-analyzer-delta.vercel.app/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
