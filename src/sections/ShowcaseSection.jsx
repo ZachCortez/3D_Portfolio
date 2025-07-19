@@ -23,6 +23,7 @@ const ShowcaseSection = () => {
     const project14Ref = useRef(null);
     const project15Ref = useRef(null);
     const project16Ref = useRef(null);
+    const project17Ref = useRef(null);
 
 
 
@@ -47,6 +48,7 @@ const ShowcaseSection = () => {
             project14Ref.current,
             project15Ref.current,
             project16Ref.current,
+            project17Ref.current,
         ];
 
         projects.forEach((card, index) => {
@@ -81,6 +83,44 @@ const ShowcaseSection = () => {
                 <div className="showcaselayout">
                 {/*    LEFT    */}
                     <div className="first-project-wrapper">
+
+
+                        {/*--------------------------------*/}
+
+                        <div className="project">
+                            <a
+                                href="https://github.com/ZachCortez/ai-resume-analyzer"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div className="image-wrapper bg-[#]" ref={project17Ref}>
+                                    <img
+                                        src="/images/resumind-preview.png" // Replace with actual preview image path
+                                        alt="Resumind App Preview"
+                                    />
+                                </div>
+                            </a>
+
+                            <div className="text-content">
+                                <a
+                                    href="https://github.com/ZachCortez/ai-resume-analyzer"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <h2>🧠 Resumind – AI Resume Analyzer</h2>
+                                </a>
+                                <p className="text-white-50 md:text-xl">
+                                    A fully client-side AI resume analyzer built with React, Zustand, TypeScript,
+                                    Tailwind CSS, and OpenAI.
+                                    Users can securely upload resumes (PDF/DOCX), view previews, and receive
+                                    personalized job-match
+                                    feedback and ATS scoring – all in-browser, with no backend required. Powered by GPT
+                                    and optimized for modern frontend performance.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/*--------------------------------*/}
                         {/*--------------------------------*/}
 
                         <div className="project">
@@ -289,9 +329,9 @@ const ShowcaseSection = () => {
                             <h2>🤖 AI Mock Interviews – AI-Powered Interview Practice Platform</h2>
                             <p className="text-white-50 md:text-xl">Built with Next.js for the user interface and
                                 backend logic, Firebase for authentication and data storage, styled with TailwindCSS
-                                    and
-                                    using Vapi's voice agents
-                                </p>
+                                and
+                                using Vapi's voice agents
+                            </p>
                         </div>
                         {/*--------------------------------*/}
                         {/*---------------------------*/}
